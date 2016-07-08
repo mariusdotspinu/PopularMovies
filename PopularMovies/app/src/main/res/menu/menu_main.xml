@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Activities.MainActivity">
+    <item
+        android:id="@+id/sort_pop"
+        android:orderInCategory="1"
+        app:showAsAction="never"
+        android:title="@string/sort_by_popularity"
+        />
+    <item
+        app:showAsAction="never"
+        android:orderInCategory="2"
+        android:id="@+id/sort_rating"
+        android:title="@string/sort_by_rating"
+        />
+    <item
+        app:showAsAction="never"
+        android:orderInCategory="3"
+        android:id="@+id/favorites"
+        android:title="@string/view_favorites"
+        />
+    <item
+        app:showAsAction="never"
+        android:orderInCategory="4"
+        android:id="@+id/about"
+        android:title="@string/about"
+        />
+
+</menu>

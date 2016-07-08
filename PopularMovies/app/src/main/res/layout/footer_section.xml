@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This is the rewiews section (only the listivew , the header remains in main xml
+for layout arangement) : Never use a listview in a scrollview #reference-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/reviewHeader"
+android:layout_width="match_parent" android:layout_height="match_parent"
+android:layout_below="@+id/trailerHeader"
+android:orientation="vertical">
+<ListView
+    android:id="@+id/reviews_list_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+</ListView>
+</LinearLayout>
