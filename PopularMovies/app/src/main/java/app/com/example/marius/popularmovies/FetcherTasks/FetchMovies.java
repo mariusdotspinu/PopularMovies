@@ -49,7 +49,7 @@ public class FetchMovies extends AsyncTask<String, Void, String[]> {
 
         try {
             final String BASE_URL = "http://api.themoviedb.org/3/movie/" + params[0] +
-                    "?api_key=88ac9738e1138283396eff8b210de62b";
+                    "?api_key=[API_KEY]";
 
             Uri builtUri = Uri.parse(BASE_URL).buildUpon().build();
 
